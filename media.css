@@ -1,0 +1,1550 @@
+@media(min-width: 1439px) {
+
+    .material__inner{
+        height: 260px;
+    }
+    .plan{
+        height: 1050px;
+    }
+    .staff__items{
+        height: 235px;
+    }
+    .desp__items{
+        height: 125px;
+    }
+    .desp__title{
+        font-size: 1.2rem;
+    }
+    .desp__subtitle{
+        font-size: 1.1rem;
+    }
+    .staff__name, .staff__telefon{
+        font-size: 1.2rem;
+    }
+    .staff__adress, .staff__title{
+        font-size: 1.1rem;
+    }
+}
+
+
+
+
+@media(max-width: 900px) {
+
+    .head__name {
+        font-size: 0.9em;
+    }
+
+    .head__time,
+    .head__text {
+        font-size: 0.7em;
+    }
+
+    .head__text span {
+        font-size: 1.0em;
+    }
+
+    .btn a {
+        text-decoration: none;
+        font-size: 0.8em;
+        color: #fff;
+        padding: 10px 15px;
+        background: linear-gradient(90deg, #F34E4B, #F67444);
+        border-radius: 10px;
+    }
+
+    .head__foto2 {
+        width: 15px;
+        height: 15px;
+    }
+
+    .head__foto,
+    .head__time,
+    .head__text {
+        margin-right: 10px;
+    }
+
+    .head__foto {
+        width: 60px;
+        height: 30px;
+    }
+
+    .head__foto img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .intro {
+        height: 400px;
+        margin-top: 15px;
+    }
+
+    .head__inner {
+        margin-top: 15px;
+    }
+
+    .form__foto {
+        width: 245px;
+        height: 260px;
+        top: -63px;
+        left: -45px;
+    }
+
+    .form {
+        width: 150px;
+    }
+
+    .form__btn {
+        font-size: 0.8em;
+        padding: 8px 15px;
+    }
+
+    .form__text {
+        font-size: 0.8em;
+
+    }
+
+    .none {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 769px) {
+    .intro {
+        height: 300px;
+        margin-top: 15px;
+    }
+
+    .form__foto {
+        width: 230px;
+        height: 230px;
+        top: -63px;
+        left: -45px;
+    }
+
+    .form {
+        width: 130px;
+    }
+
+    .form__btn {
+        font-size: 0.7em;
+        padding: 6px 12px;
+    }
+
+    .form__text {
+        font-size: 0.7em;
+
+    }
+
+    .project__foto {
+        height: 170px;
+    }
+
+    .project__inner {
+        height: 320px;
+    }
+
+    .plan__top {
+        font-size: 0.8rem;
+        padding-top: 40px;
+    }
+    .littel{
+        margin: 20px 0 7px;
+    }
+    .plan__bottom {
+        font-size: 0.7rem;
+        margin: 20px 0;
+    }
+
+    .plan {
+        height: 700px;
+    }
+
+    .plan__form {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .pform__title {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+
+    .bform__item {
+        padding: 10px;
+        font-size: 0.8rem;
+        margin-right: 20px;
+    }
+
+    .form__btm {
+        font-size: 0.7em;
+        padding: 5px 28px;
+    }
+
+    .derent__foto img {
+        width: 80%;
+    }
+
+    .derent__foto {
+        margin-bottom: 25px;
+    }
+
+    .derent__title {
+        font-size: 0.7rem;
+        margin: 20px 0;
+    }
+
+    .derent__subtitle {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+
+    .material__top {
+        font-size: 0.7rem;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .desp__title {
+        font-size: 0.7rem;
+    }
+
+    .desp__subtitle {
+        font-size: 0.6rem;
+    }
+
+    .desp__items {
+        height: 75px;
+        margin-top: 30px;
+    }
+
+    .desp {
+        height: 500px;
+    }
+
+    .staff__adress,
+    .staff__title {
+        font-size: 0.7rem;
+    }
+
+    .none {
+        margin-bottom: 0;
+    }
+
+    .quesition__text {
+        font-size: 0.8rem;
+    }
+
+    .quesition__text span {
+        width: 25px;
+        height: 25px;
+        line-height: 2;
+    }
+
+    .quesition__top {
+        padding-top: 40px;
+    }
+
+    .map__cont {
+        padding-left: 3%;
+    }
+
+    .map {
+        height: 360px;
+    }
+
+    .staff__active {
+        width: 65%;
+    }
+
+}
+
+
+
+
+
+
+/*=======MEDIA 577px START===========*/
+@media(max-width: 577px) {
+    .intro {
+        height: 200px;
+        margin-top: 15px;
+    }
+
+    .form__foto {
+        width: 200px;
+        height: 200px;
+        top: -81px;
+        left: -42px;
+    }
+
+    .head__name {
+        font-size: 0.8em;
+    }
+
+    .head__time,
+    .head__text {
+        font-size: 0.7em;
+    }
+
+    .head__text span {
+        font-size: 0.8em;
+    }
+
+    .btn a {
+        text-decoration: none;
+        font-size: 0.8em;
+        color: #fff;
+        padding: 6px 10px;
+        background: linear-gradient(90deg, #F34E4B, #F67444);
+        border-radius: 10px;
+    }
+
+    .head__foto2 {
+        width: 15px;
+        height: 15px;
+    }
+
+    .head__foto,
+    .head__time,
+    .head__text {
+        margin-right: 10px;
+    }
+
+    .head__foto {
+        width: 53px;
+        height: 25px;
+    }
+
+    .head__foto img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .form {
+        width: 100px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+    }
+
+    .form__btn {
+        font-size: 0.7em;
+        padding: 6px 12px;
+    }
+
+    .form__text {
+        font-size: 0.6em;
+        margin-top: -50px;
+
+    }
+
+    .project__top {
+        margin: 20px 0;
+    }
+
+    .project__top h2 {
+        font-size: 1.5rem;
+    }
+
+    .project__foto {
+        height: 140px;
+    }
+
+    .project__inner {
+        height: 290px;
+    }
+
+    .project__b1 {
+        margin-bottom: 30px;
+    }
+
+    .project__title {
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+
+    .project__subtitle {
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+    }
+
+    .planbtn a {
+        font-size: 0.7em;
+        padding: 8px 8px;
+    }
+
+    .project__conten {
+        height: 130px;
+    }
+
+
+    .plan__top {
+        font-size: 0.6rem;
+        padding-top: 40px;
+    }
+
+    .plan__bottom {
+        font-size: 0.7rem;
+        margin: 20px 0;
+    }
+
+    .pform__item {
+        padding-left: 20px;
+    }
+
+    .plan {
+        height: 660px;
+    }
+
+    .plan__form {
+        height: 180px;
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+
+    .pform__title {
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+    }
+
+    .pform__subtitle {
+        font-size: 0.6rem;
+    }
+
+    .plan__subtitle {
+        font-size: 0.7rem;
+    }
+
+    .bform__item {
+        padding: 10px;
+        font-size: 0.8rem;
+        margin-right: 20px;
+        width: 135px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .form__btm {
+        font-size: 0.6em;
+        padding: 5px 17px;
+    }
+
+    .derent__foto img {
+        width: 100%;
+    }
+
+    .derent__foto {
+        margin-bottom: 25px;
+    }
+
+    .derent__title {
+        font-size: 0.6rem;
+        margin: 20px 0;
+    }
+
+    .derent__subtitle {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+
+    .material__items {
+        width: 25%
+    }
+
+    .material__foto {
+        height: 42%
+    }
+
+    .material__top {
+        font-size: 0.6rem;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .material__title {
+        font-size: 0.7rem;
+    }
+
+    .littel {
+        margin: 20px 0 8px;
+    }
+
+    .desp__title {
+        font-size: 0.6rem;
+    }
+
+    .desp__subtitle {
+        font-size: 0.55rem;
+    }
+
+    .desp__inner {
+        width: 80%;
+    }
+
+    .desp__items {
+        height: 75px;
+        margin-top: 30px;
+    }
+
+    .desp {
+        height: 460px;
+    }
+
+    .staff__foto {
+        width: 70%;
+    }
+
+    .staff__name,
+    .staff__telefon {
+        font-size: 0.8rem;
+    }
+
+    .staff__cont {
+        width: 28%;
+        margin-left: 2%
+    }
+
+    .staff__adress,
+    .staff__title {
+        font-size: 0.56rem;
+        margin-bottom: 15px;
+    }
+
+    .company__cont {
+        text-align: center;
+        padding: 10px 5px;
+    }
+
+    .none {
+        margin-bottom: 0;
+    }
+
+    .quesition__text {
+        font-size: 0.76rem;
+    }
+
+    .quesition {
+        height: 555px;
+    }
+
+    .quesition__text span {
+        width: 25px;
+        height: 25px;
+        line-height: 2;
+    }
+
+    .quesition__top {
+        padding-top: 40px;
+    }
+
+    .map__cont {
+        padding-left: 3%;
+    }
+
+    .map {
+        height: 300px;
+    }
+
+    .map__title {
+        margin-top: 35px;
+        font-size: 0.8rem;
+    }
+}
+/*=======MEDIA 577px END===========*/
+
+
+/*=======MEDIA 438px START===========*/
+@media(max-width: 438px) {
+
+
+    .head__name {
+        font-size: 0.7em;
+    }
+
+
+    .head__text span {
+        font-size: 0.7em;
+    }
+
+    .btn a {
+        font-size: 0.5em;
+        padding: 5px 7px;
+        display: inherit;
+    }
+
+    .head__foto2 {
+        width: 13px;
+        height: 13px;
+        display: inherit;
+    }
+
+    .head__foto,
+    .head__time,
+    .head__text {
+        margin-right: 7px;
+    }
+    .head__time,
+    .head__text{
+        font-size: 0.46em;
+    }
+    .head__foto {
+        width: 38px;
+        height: 22px;
+    }
+
+    .form {
+        width: 100px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+        font-size: 0.6rem;
+        margin-left: -7px;
+    }
+
+    .form__foto {
+        width: 150px;
+        height: 170px;
+        top: -60px;
+        left: -32px;
+    }
+
+    .form__btn {
+        font-size: 0.6em;
+        padding: 4px 7px;
+        margin-left: -10px;
+    }
+
+    .form__text {
+        font-size: 0.6em;
+        margin-top: -31px;
+        margin-bottom: 5px;
+        margin-left: -13px;
+    }
+
+    .project__top {
+        margin: 20px 0;
+    }
+
+    .project__top h2 {
+        font-size: 1.3rem;
+    }
+
+    .project__foto {
+        height: 115px;
+    }
+
+    .project__inner {
+        height: 280px;
+    }
+
+    .project__b1 {
+        margin-bottom: 30px;
+        font-size: 0.8rem;
+    }
+
+    .project__title {
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+
+    .project__subtitle {
+        font-size: 0.7rem;
+        margin-bottom: 20px;
+    }
+
+    .planbtn a {
+        font-size: 0.6em;
+        padding: 8px 8px;
+    }
+
+    .project__conten {
+        height: 150px;
+    }
+
+
+    .plan__top {
+        font-size: 0.54rem;
+        padding-top: 40px;
+    }
+
+    .plan__bottom {
+        font-size: 0.6rem;
+        margin: 20px 0;
+    }
+
+    .pform__item {
+        padding-left: 7px;
+    }
+
+    .plan {
+        height: 575px;
+        background-image: url(foto/foto2__mini.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .plan__form {
+        height: 140px;
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+
+    .pform__title {
+        font-size: 0.56rem;
+        margin-bottom: 20px;
+    }
+
+    .pform__subtitle {
+        font-size: 0.54rem;
+    }
+
+    .plan__subtitle {
+        font-size: 0.6rem;
+    }
+
+    .bform__item {
+        padding: 6px;
+        font-size: 0.8rem;
+        margin-right: 20px;
+        width: 100px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .form__btm {
+        font-size: 0.6em;
+        padding: 2px 10px;
+    }
+
+    .derent__foto img {
+        width: 100%;
+    }
+
+    .derent__foto {
+        margin-bottom: 25px;
+        height: 200px;
+    }
+
+    .derent__title {
+        font-size: 0.6rem;
+        margin: 30px 0;
+    }
+
+    .derent__subtitle {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+
+    .material__items {
+        width: 50%
+    }
+
+    .material {
+        height: 480px;
+    }
+
+    .material__foto {
+        height: 42%
+    }
+
+    .material__top {
+        font-size: 0.6rem;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .material__title {
+        font-size: 0.7rem;
+    }
+
+    .littel {
+        margin: 20px 0;
+    }
+
+    .desp__title {
+        font-size: 0.6rem;
+    }
+
+    .desp__subtitle {
+        font-size: 0.55rem;
+    }
+
+    .desp__inner {
+        width: 80%;
+    }
+
+    .desp__items {
+        height: 75px;
+        margin-top: 30px;
+    }
+
+    .desp {
+        height: 460px;
+        background-image: url(foto/desp__mini.jpg);
+        background-size: cover;
+        background-position: left;
+    }
+
+    .staff__foto {
+        width: 100%;
+    }
+
+    .staff {
+        width: 100%;
+        height: 520px;
+    }
+
+    .staff__name,
+    .staff__telefon {
+        font-size: 1.2rem;
+    }
+
+    .staff__items {
+        flex-direction: column;
+    }
+
+    .staff__cont {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .staff__adress,
+    .staff__title {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .company__items {
+        width: 100%;
+        margin-bottom: 20px
+    }
+
+    .company__cont {
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .none {
+        margin-bottom: 0;
+    }
+
+    .quesition__text {
+        font-size: 0.76rem;
+    }
+
+    .quesition {
+        height: 510px;
+        background-image: url(foto/quesition__mini.jpg);
+        background-size: cover;
+        background-position: right;
+    }
+
+    .quesition__text span {
+        width: 25px;
+        height: 25px;
+        line-height: 2;
+    }
+
+    .quesition__top {
+        padding-top: 40px;
+    }
+
+    .map__cont {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .map__item {
+        flex-direction: column;
+    }
+
+    .map {
+        height: auto;
+    }
+
+    .map__icon {
+        width: 100%;
+    }
+
+    .map__adress p {
+        font-size: 0.9rem;
+    }
+
+    .map__adress {
+        justify-content: center;
+    }
+
+    .map__title {
+        margin-top: 35px;
+        font-size: 0.8rem;
+    }
+}
+/*=======MEDIA 438px END===========*/
+
+
+
+/*=======MEDIA 376px START===========*/
+@media(max-width: 376px) {
+
+    .head__name {
+        font-size: 0.57em;
+    }
+    .head__time, .head__text{
+        font-size: 0.39em;
+    }
+
+    .head__text span {
+        font-size: 0.8em;
+    }
+
+    .btn a {
+        font-size: 0.5em;
+        padding: 4px 5px;
+        display: inherit;
+    }
+
+    .head__foto2 {
+        width: 12px;
+        height: 12px;
+        display: inherit;
+    }
+
+    .head__foto,
+    .head__time,
+    .head__text {
+        margin-right: 6px;
+    }
+
+    .head__foto {
+        width: 34px;
+        height: 20px;
+    }
+    .form__block{
+        display: none;
+    }
+    .form {
+        width: 100px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+        font-size: 0.6rem;
+        margin-left: -7px;
+    }
+
+    .form__foto {
+        width: 150px;
+        height: 170px;
+        top: -60px;
+        left: -32px;
+    }
+
+    .form__btn {
+        font-size: 0.6em;
+        padding: 4px 7px;
+        margin-left: -10px;
+    }
+    .intro {
+        height: 160px;
+    }
+    .form__text {
+        font-size: 0.6em;
+        margin-top: -31px;
+        margin-bottom: 5px;
+        margin-left: -13px;
+    }
+    .mob__head{
+        display: block;
+    }
+
+    .project__top {
+        margin: 20px 0;
+    }
+
+    .project__top h2 {
+        font-size: 1.2rem;
+    }
+
+    .project__foto {
+        height: 100px;
+    }
+
+    .project__inner {
+        height: 240px;
+    }
+
+    .project__b1 {
+        margin-bottom: 30px;
+        font-size: 0.8rem;
+    }
+
+    .project__title {
+        font-size: 0.7rem;
+        margin: 10px 0;
+    }
+
+    .project__subtitle {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+
+    .planbtn a {
+        font-size: 0.46em;
+    }
+
+    .project__conten {
+        height: 130px;
+    }
+
+
+    .plan__top {
+        font-size: 0.45rem;
+        padding-top: 30px;
+    }
+
+    .plan__bottom {
+        font-size: 0.6rem;
+        margin: 20px 0;
+    }
+
+    .pform__item {
+        padding-left: 7px;
+    }
+    .active span::before{
+       transform: translateY(-12px) rotate(270deg);
+    }
+    .active span{
+        width: 25px;
+        height: 2px;
+    }
+    .point{
+        width: 15px;
+        height: 15px;
+    }
+    .plan {
+        height: 515px;
+    }
+
+    .plan__form {
+        height: 120px;
+    }
+
+    .pform__title {
+        font-size: 0.46rem;
+        margin-bottom: 10px;
+    }
+
+    .pform__subtitle {
+        font-size: 0.45rem;
+    }
+
+    .plan__subtitle {
+        font-size: 0.6rem;
+    }
+
+    .bform__item {
+        padding: 5px;
+        font-size: 0.6rem;
+        margin-right: 10px;
+        width: 90px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .form__btm {
+        font-size: 0.6em;
+        padding: 2px 10px;
+    }
+    i {
+        font-size: 2em;
+    }
+    .derent__foto img {
+        width: 100%;
+    }
+
+    .derent__foto {
+        margin-bottom: 15px;
+        height: 180px;
+    }
+
+    .derent__title {
+        font-size: 0.5rem;
+        margin: 25px 0;
+    }
+
+    .derent__subtitle {
+        font-size: 0.55rem;
+    }
+
+    .material__items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .material {
+        height: 1030px;
+    }
+
+    .material__foto {
+        height: 70%
+    }
+
+    .material__top {
+        font-size: 0.55rem;
+    }
+
+    .material__title {
+        font-size: 0.9rem;
+    }
+
+    .littel {
+        margin: 20px 0;
+    }
+    .material__link a {
+        font-size: 0.9em;
+    }
+    .desp__title {
+        font-size: 0.5rem;
+        padding-top: 6px;
+    }
+
+    .desp__subtitle {
+        font-size: 0.5rem;
+    }
+
+    .desp__inner {
+        width: 80%;
+    }
+
+    .desp__items {
+        height: 60px;
+        margin-top: 30px;
+    }
+
+    .desp {
+        height: 380px;
+    }
+
+    .staff__foto {
+        width: 100%;
+    }
+
+    .staff {
+        width: 100%;
+        height: 500px;
+    }
+
+    .staff__name,
+    .staff__telefon {
+        font-size: 1.2rem;
+        margin-top: 18px;
+    }
+
+    .staff__items {
+        flex-direction: column;
+    }
+
+    .staff__cont {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .staff__adress,
+    .staff__title {
+        font-size: 0.8rem;
+    }
+
+    .company__items {
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .quesition__top h2{
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    .quesition__top h4{
+        font-size: 0.7em;
+    }
+    .company__cont {
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .none {
+        margin-bottom: 0;
+    }
+
+    .quesition__text {
+        font-size: 0.6rem;
+    }
+
+    .quesition {
+        height: 410px;
+    }
+
+    .quesition__text span {
+        width: 15px;
+        height: 15px;
+        line-height: 1.5;
+    }
+
+    .quesition__top {
+        padding-top: 40px;
+    }
+
+    .map__cont {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .map__item {
+        flex-direction: column;
+    }
+
+    .map {
+        height: auto;
+    }
+
+    .map__icon {
+        width: 100%;
+    }
+
+    .map__adress p {
+        font-size: 0.9rem;
+    }
+
+    .map__adress {
+        justify-content: center;
+    }
+
+    .map__title {
+        margin-top: 35px;
+        font-size: 0.8rem;
+    }
+}
+/*=======MEDIA 376px END===========*/
+
+
+/*=======MEDIA 321px END===========*/
+@media(max-width: 321px) {
+
+    .head__name {
+        font-size: 0.4em;
+    }
+    .head__time, .head__text{
+        font-size: 0.33em;
+    }
+
+    .btn a {
+        font-size: 0.45em;
+    }
+
+    .head__foto {
+        width: 30px;
+        height: 17px;
+    }
+    .form__block{
+        display: none;
+    }
+    .form {
+        width: 100px;
+        padding: 5px 0;
+        margin-bottom: 5px;
+        font-size: 0.6rem;
+        margin-left: -7px;
+    }
+
+    .form__foto {
+        width: 150px;
+        height: 170px;
+        top: -60px;
+        left: -32px;
+    }
+
+    .form__btn {
+        font-size: 0.6em;
+        padding: 4px 7px;
+        margin-left: -10px;
+    }
+    .intro {
+        height: 130px;
+    }
+    .form__text {
+        font-size: 0.6em;
+        margin-top: -31px;
+        margin-bottom: 5px;
+        margin-left: -13px;
+    }
+    .mob__form{
+        width: 80px;
+    }
+    .mob__head{
+        display: block;
+    }
+
+    .project__top {
+        margin: 20px 0;
+    }
+
+    .project__top h2 {
+        font-size: 1.2rem;
+    }
+
+    .project__foto {
+        height: 100px;
+    }
+
+    .project__inner {
+        height: 240px;
+    }
+
+    .project__b1 {
+        margin-bottom: 30px;
+        font-size: 0.8rem;
+    }
+
+    .project__title {
+        font-size: 0.7rem;
+        margin: 10px 0;
+    }
+
+    .project__subtitle {
+        font-size: 0.6rem;
+        margin-bottom: 20px;
+    }
+
+    .planbtn a {
+        font-size: 0.4em;
+        padding: 5px 6px;
+    }
+
+    .project__conten {
+        height: 130px;
+    }
+    .navi{
+        margin: 20px 0 25px;
+    } 
+
+    .plan__top {
+        font-size: 0.45rem;
+        padding-top: 45px;
+    }
+
+    .plan__bottom {
+        font-size: 0.6rem;
+        margin: 20px 0;
+    }
+
+    .pform__item {
+        padding-left: 5px;
+    }
+    .active span{
+        width: 25px;
+        height: 2px;
+    }
+    .point{
+        width: 15px;
+        height: 15px;
+    }
+    .plan {
+        height: 465px;
+    }
+
+    .plan__form {
+        height: 120px;
+    }
+
+    .pform__title {
+        font-size: 0.36rem;
+    }
+
+    .pform__subtitle {
+        font-size: 0.4rem;
+    }
+
+    .plan__subtitle {
+        font-size: 0.6rem;
+    }
+
+    .bform__item {
+        width: 80px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .form__btm {
+        font-size: 0.46em;
+        padding: 2px 10px;
+    }
+    .derent__foto {
+        height: 150px;
+    }
+
+    .derent__title {
+        font-size: 0.5rem;
+        margin: 25px 0;
+    }
+
+    .derent__subtitle {
+        font-size: 0.55rem;
+    }
+
+    .material__items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .material {
+        height: 1030px;
+    }
+
+    .material__foto {
+        height: 60%
+    }
+
+    .material__top {
+        font-size: 0.55rem;
+    }
+
+    .material__title {
+        font-size: 0.9rem;
+    }
+
+    .littel {
+        margin: 20px 0;
+    }
+    .material__link a {
+        font-size: 0.9em;
+    }
+    .desp__title {
+        font-size: 0.5rem;
+        padding-top: 6px;
+    }
+
+    .desp__subtitle {
+        font-size: 0.5rem;
+    }
+
+    .desp__inner {
+        width: 80%;
+    }
+
+    .desp__items {
+        height: 60px;
+        margin-top: 30px;
+    }
+
+    .desp {
+        height: 380px;
+    }
+
+    .staff__foto {
+        width: 100%;
+    }
+
+    .staff {
+        width: 100%;
+        height: 500px;
+    }
+
+    .staff__name,
+    .staff__telefon {
+        font-size: 1.2rem;
+        margin-top: 18px;
+    }
+
+    .staff__items {
+        flex-direction: column;
+    }
+
+    .staff__cont {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .staff__adress,
+    .staff__title {
+        font-size: 0.8rem;
+    }
+
+    .company__items {
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .quesition__top h2{
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+    .quesition__top h4{
+        font-size: 0.7em;
+    }
+    .company__cont {
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .none {
+        margin-bottom: 0;
+    }
+
+    .quesition__text {
+        font-size: 0.6rem;
+    }
+
+    .quesition {
+        height: 410px;
+    }
+
+    .quesition__text span {
+        width: 15px;
+        height: 15px;
+        line-height: 1.5;
+    }
+
+    .quesition__top {
+        padding-top: 40px;
+    }
+
+    .map__cont {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .map__item {
+        flex-direction: column;
+    }
+
+    .map {
+        height: auto;
+    }
+
+    .map__icon {
+        width: 100%;
+    }
+
+    .map__adress p {
+        font-size: 0.9rem;
+    }
+
+    .map__adress {
+        justify-content: center;
+    }
+
+    .map__title {
+        margin-top: 35px;
+        font-size: 0.8rem;
+    }
+}
