@@ -1,0 +1,549 @@
+@media(min-width:1439px){
+	.head__nav a,.nav__bottom span{
+		font-size: 20px;
+	}
+	.bottom__box{
+		top: 27px;
+	    left: 105px;
+	    height: auto;
+	    width: 190px;
+	}
+	.head__nav a,.about__text,.mice__text{
+		font-size: 20px;
+	}
+	.intro {Salahi1516
+	    margin-top: 250px;
+	}
+	.head__land{
+		margin-right: 24%;
+	}
+	.head__land span{
+		font-size: 26px;
+	}
+	.intro__title h1,.mice__title h2{
+		font-size: 50px;
+	}
+	.intro__subtitle h2{
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.intro__text {
+    	font-size: 22px;
+	}
+	.intro__btn a{
+		font-size: 20px;
+		width: 180px;
+	    height: 50px;
+	}
+	.social__link i {
+	    font-size: 30px;
+	    line-height: 45px;
+	}
+	.play__icon{
+		width: 50px;
+		height: 50px;
+	}
+	.play__text {
+	    font-size: 20px;
+	    transform: translateX(-12px) rotate(-90deg);
+	}
+	.window{
+		margin-bottom: -3%;
+	}
+	.window__iner{
+		height: 90px;
+	}
+	.window__foto {
+	    height: 70%;
+	}
+	.window__cont,.bottom__text,.bottom__btn a{
+		font-size: 15px;
+	}
+	.about__inner{
+		margin-top: 60px;
+	}
+	.about__title,.tour__title h2 {
+	    font-size: 65px;
+	}
+	.about__subtitle {
+	    font-size: 29px;
+	}
+	.servises__item {
+	    height: 65%;
+	}
+	.servises__icon {
+	    transform: scale(1);
+	}
+	.servises__text,.list__colum a {
+	    font-size: 16px;
+	}
+	.mice{
+		margin-top: 9%;
+	}
+	.tour__foto{
+		height: 300px;
+	}
+	.content__title p{
+		font-size: 25px;
+	}
+	.subtitle__foto{
+		margin-bottom: 10px;
+	}
+	.bottom__btn{
+		height: 35px;
+	}
+	.plane{
+		margin-top: 0;
+	}
+	.new__item {
+	    height: 450px;
+	}
+	.foot__foto{
+		transform: scale(1);
+	}
+	.bid {
+	    width: 30%;
+	}
+	.foot__map, .foot__phone, .foot__mess {
+	    font-size: 16px;
+	}
+	.foot__title {
+	    font-size: 20px;
+	}
+	.foot__colum a{
+		font-size: 29px;
+	}
+}
+@media(min-width:880px){
+	.nav__bottom:hover .bottom__box{
+		transform: translateY(0);
+		opacity: 1;
+		visibility: visible;
+	}
+	.nav__bottom:hover i{
+		transform: rotate(0);
+	}
+	.subtitle__text{
+		font-size: 14px;
+	}
+
+}
+@media(max-width:878px){
+	.head__inner{
+		margin-bottom: 45px;
+	}
+	.head__lodo,.head__foto{
+		transform:scale(0.8); 
+	}
+	.head__foto{
+		width: 20%;
+	}
+	.phone,.head__land span,
+	.nav__bottom span,.content__title
+	{
+		font-size: 13px;
+	}
+	.head__land{
+		margin-right: 11%;
+	}
+	.head__top{
+		padding: 20px 0 15px;
+	}
+	.head__nav>a,.nav__bottom span
+	{
+		font-size: 16px;
+		line-height: 30px;
+		margin-right: 15px;
+	}
+	.nav__bottom span{
+		margin-right: 3px;
+	}
+	.nav__bottom i{
+		font-size: 10px;
+		margin-right: 15px;
+		line-height: 2.8;
+	}
+	.head__nav{
+		max-width: 75%;
+		flex-wrap: wrap-reverse;
+		justify-content: center;
+		margin: 20px auto;
+	}
+	.bottom__box{
+		top: 60px;
+    	left: 123px;
+    	transform: translateY(100%);
+    	transition: 0.2s;
+	}
+	.play__text,.intro__text,.about__text,
+	.foot__colum a
+	{
+		font-size: 12px;
+	}
+	.play__icon{
+		top: 10px;
+	    right: -34%;
+	}
+	.intro__subtitle h2{
+		font-size: 20px;
+	}
+	.intro__title h1,.about__title {
+		font-size: 32px;
+	}
+	.intro{
+		margin-top: 180px;
+	}
+	.social{
+		padding-left: 40px;
+	}
+	.intro__btn a{
+		width: 130px;
+    	height: 35px;
+	}
+	.window{
+		margin-bottom: -4%;
+	}
+	.window__iner{
+		height: 60px;
+	}
+	.window__cont,.servises__text,.subtitle__text,
+	.list__colum a
+	{
+		font-size: 9px;
+	}
+	.window__foto{
+	    width: 19%;
+    	height: 60%;
+	}
+	.about__subtitle{
+		font-size: 15px;
+	}
+	#foto {
+    	margin-top: -130px;
+	}
+	.servises__number{
+		font-size: 25px;
+	}
+	.servises__icon {
+    	transform: scale(0.6);
+	}
+	.litte {
+   		margin-left: -45px;
+	}
+	.servises__inner {
+	    height: 370px;
+	}
+	.bottom__text,.bottom__btn a,
+	.foot__map, .foot__phone, .foot__mess{
+		font-size:10px;
+	}
+	.tour__inner{
+		align-items: flex-start;
+	}
+	.tour__foto{
+		height: 200px;
+	}
+	.item4, .item3, .item2{
+		margin-right: 2%;
+	}
+}
+@media(max-width: 600px){
+	.head__land span{
+		font-size: 15px;
+	}
+	.head__inner{
+		flex-direction: column-reverse;
+	}
+	.head__lodo{
+		width: 50%;
+	}
+	.head__telefon{
+		width: 48%;
+	}
+	.head__lodo img{
+		width: 100%;
+		height: 100%;
+	}
+	.phone{
+		margin-left: 5px;
+		font-size: 11px;
+	}
+	.head__land{
+		margin-right: 0;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.head__top{
+		padding-bottom: 10px;
+	}
+	.head__nav{
+		flex-direction: column;
+	}
+	.bottom__box{
+		position: static;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-100%);
+		border: none;
+		width: 200px;
+		line-height: 25px;
+		padding: 5px 0;
+		transition: 0.3s;
+		height: 0;
+	}
+	.bottom__box a{
+		justify-content: center;
+	}
+	.active__btn{
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+		height: auto;
+	}
+	.nav__bottom i{
+		transform: rotate(180deg);
+	}
+	.nav__bottom span{
+		margin-left: 24%;
+	}
+	.nav__row{
+		background-color: rgba(54,25,41,0.6);
+		opacity: 0;
+		visibility: hidden;
+	}
+	.active__cont{
+		height: auto;
+		opacity: 1;
+		visibility: visible;
+	}
+	.burder__nav{
+		display: flex;
+	}
+	.intro__title h1{
+		font-size: 25px;
+	}
+	.intro__subtitle h2{
+		font-size: 14px;
+	}
+	.intro__text,.list__colum a{
+		font-size: 11px;
+	}
+	.play__text{
+		transform: translateX(32px) rotate(270deg);
+	}
+	.intro {
+    	margin-top: 100px;
+	}
+	.window__iner {
+    	height: auto;
+	}
+	.window__item{
+		width: 50%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+	.window {
+    	margin-bottom: -12%;
+	}
+	.about__content{
+		width: 100%;
+	}
+	.about__foto{
+		width: 100%;
+		margin-left: 0;
+	}
+	.about {
+    	padding-top: 90px;
+    }
+    .intro__title h1, .about__title {
+    	font-size: 45px;
+	}
+	.about__subtitle {
+    	font-size: 18px;
+	}
+	.about__text,.mice__text{
+		font-size: 15px;
+	}
+	.about{
+		margin-bottom: 20px;
+	}
+	.servises__item {
+    	width: 50%;
+	}
+	.servises__icon {
+    	transform: scale(0.7);
+	}
+	.servises__number {
+	    font-size: 28px;
+	}
+	.servises__text{
+		font-size: 10px;
+	}
+	.servises__inner {
+    	height: 450px;
+	}
+	.mice{
+		margin-top: 450px;
+	}
+	.mice__content {
+	    width: 100%;
+	}
+	.mice__foto {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+	.mice__foto img{
+		margin-left: 0;
+		transform: scale(1);
+	}
+	.mice__title h2{
+		font-size: 35px;
+	}
+	.mice__list{
+		align-items: flex-start;
+	}
+	.plane{
+		margin-top: 0;
+	}
+	.tour__item{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.part__foto {
+	    width: 27%;
+	    margin-bottom: 20px;
+	}
+	.item4, .item3, .item2{
+		width: 31%;
+	}
+	.item {
+	    width: 40%;
+	}
+	.bid {
+	    width: 50%;
+	    margin-bottom: 30px;
+	}
+}
+@media(max-width:376px){
+	.play__text {
+    	transform: translateX(40px) rotate(270deg);
+	}
+	.part__foto{
+		width: 40%;
+	}
+	.item4, .item3, .item2{
+		width: 40%;
+	}
+	.item{
+		width: 50%;
+	}
+	.foot__foto{
+		transform: scale(0.9);
+	}
+	.foot__foto img{
+		margin-left: 0;
+	}
+	.bid{
+		width: 100%;
+	}
+	.foot__text{
+		font-size: 14px;
+	}
+	.foot__item{
+		height: 160px;
+	}
+
+}
+@media(max-width:321px){
+	.phone {
+	    margin-left: 8px;
+	    font-size: 10px;
+	}
+	.intro__title h1, .about__title {
+	    font-size: 38px;
+	}
+	.intro__text{
+		font-size: 9px;
+	}
+	.intro__subtitle h2 {
+	    font-size: 12px;
+	}
+	.intro__btn a {
+	    width: 115px;
+	    height: 30px;
+	}
+	.play__text {
+    	transform: translateX(35px) rotate(270deg);
+	}
+	.play__icon{
+		width: 35px;
+		height: 35px;
+	}
+	.play__text{
+		font-size: 10px;
+	}
+	.window{
+		max-width: 65%;
+		margin-bottom: -31%;
+	}
+	.window__item{
+		padding-left: 15px;
+		width: 100%;
+	}
+	.about__inner{
+		margin-top: 70px;
+	}
+	.about__subtitle {
+	    font-size: 15px;
+	}
+	.about__text, .mice__text{
+		font-size: 13px;
+	}
+	.servises__item {
+	    width: 100%;
+	}
+	.servises__icon {
+	    transform: scale(0.9);
+	}
+	.servises__text {
+	    font-size: 14px;
+	}
+	.servises__number {
+	    font-size: 40px;
+	}
+	.mice {
+	    margin-top: 422%;
+	}
+	.mice__foto{
+		margin-bottom: 25px;
+	}
+	.mice__title h2 {
+	    font-size: 28px;
+	}
+	.list__colum a {
+	    font-size: 9px;
+	}
+	.tour__title h2 {
+	    font-size: 35px;
+	}
+	.content__title p{
+		font-size: 16px;
+	}
+	.plane{
+		margin-top: 0;
+	}
+	.part{
+		margin: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
