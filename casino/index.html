@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: #273c75;
+			font-family: sans-serif;
+		}
+		header{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px 40px 20px 30px;
+			background-color:rgba(25,42,86,0.7);
+			color: #fff;
+			position: fixed;
+		    top: 0;
+		    left: 0;
+		    z-index: 999;
+		}
+		.logo{
+			font-family: 'Lobster', cursive;
+			font-weight: normal;
+
+		}
+		.logo span{
+			color: #7f8fa6;
+		}
+		.money{
+			font-size: 18px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+		.money span{
+			font-size: 16px;
+			width: 100%;
+			padding-top: 5px;
+			text-align: center;
+		}
+		.title{
+			font-size: 50px;
+			font-family: 'Lobster', cursive;
+			text-align: center;
+			color: #9A7D39;
+			font-weight: normal;
+			margin-top: 85px;
+			margin-bottom: 20px;
+		}
+		.title span{
+			color: #44bd32;
+		}
+		.casino{
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			padding-bottom: 100px;
+		}
+		.casino__block{
+			width: 500px;
+			background-color:#FBC02D; 
+			border-radius: 15px;
+			padding: 10px;
+		}
+		.casino__inner{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			margin-bottom: 10px;
+			position: relative;
+		}
+		.casino__iteam{
+			width: 120px;
+			font-size: 28px;
+			height: 30px;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color:#FFEA00; 
+			margin-right: 5px;
+			cursor: pointer;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			user-select: none;
+		}
+		.casino__inner .casino__iteam:last-child{
+			margin-right: 0;
+		}
+		.casino__pay{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 15px;
+			margin-top: 20px;
+		}
+		.pay__text{
+			font-size: 18px;
+			color: #f5f6fa;
+		}
+		.pay__start{
+			background-color: #FFEA00;
+			color: #fff;
+			text-transform: uppercase;
+			padding: 5px 25px; 
+			cursor: pointer;
+			user-select: none;
+		}
+		.pay__money{
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid #f5f6fa;
+			color: #f5f6fa;
+			font-size: 16px;
+			outline: none;
+			width: 150px;
+			padding-bottom: 3px;
+		}
+		.pay__money::placeholder{
+			color: #f5f6fa;
+			font-size: 16px;
+		}
+		.casino__cost{
+			font-size: 18px;
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			right: -50px;
+			transform: translateY(-50%);
+			width: 29px;
+			text-align: left;
+			user-select: none;
+		}
+		.wrong{
+			background-image: url(mine.png);
+			background-color: red;
+		}
+		.right{
+			background-color: #44BD32;
+		}
+		.stop{
+			background-color: red;
+			color: #fff;
+			text-transform: uppercase;
+			padding: 5px 25px; 
+			cursor: pointer;
+		}
+		.fastBet__title{
+			width: 100%;
+			color: #fff;
+			text-align: center;
+			font-size: 20px;
+			margin-top: 10px;
+		}
+		.fastBet__inner{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			margin-top: 10px;
+		}
+		.fastBet__iteam{
+			width: 120px;
+			margin-right: 5px;
+			height: 30px;
+			font-size: 25px;
+			color: #fff;
+			background-color: #FFEA00;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	
+	<header>
+		<h1 class="logo"><span>Home</span>Casino</h1>
+		<div class="money">
+			Баланс<br><span><span id='bill'>1000</span> &#8381;</span>
+		</div>
+	</header>
+	<h1 class="title">Mine<span>Field<span></h1>
+	<section class="casino">
+		<div class="casino__block">
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x10</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x9</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x8</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x7</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x6</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x5</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x4</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x3</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x2</div>
+			</div>
+			<div class="casino__inner">
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__iteam">	&quest;</div>
+				<div class="casino__cost">x1</div>
+			</div>
+			<div class="casino__pay">
+				<label for="money" class="pay__text">Ваша ставка</label>
+				<input type="number" id="money" class="pay__money" placeholder="Минимал 100&#8381;">
+				<div class="pay__start">Start</div>
+			</div>
+			<div class="fastBet">
+				<div class="fastBet__title">Быстроя ставка</div>
+				<div class="fastBet__inner">
+					<div class="fastBet__iteam">100</div>
+					<div class="fastBet__iteam">200</div>
+					<div class="fastBet__iteam">300</div>
+					<div class="fastBet__iteam">400</div>
+				</div>
+				<div class="fastBet__inner">
+					<div class="fastBet__iteam">500</div>
+					<div class="fastBet__iteam">600</div>
+					<div class="fastBet__iteam">700</div>
+					<div class="fastBet__iteam">800</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="main.js"></script>
+</body>
+</html>
