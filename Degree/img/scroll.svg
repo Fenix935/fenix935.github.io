@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7 5" width="7" height="5">
+	<defs>
+		<image width="7" height="5" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFAQMAAACzVGSbAAAAAXNSR0IB2cksfwAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAADklEQVR4nGMIYfjHAMYADuIC+SXxLbUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Нам доверяют более 50 компаний">
+		<use id="Layer 29" href="#img1" x="0" y="0" />
+	</g>
+</svg>

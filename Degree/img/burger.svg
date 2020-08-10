@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 24" width="49" height="24">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="1 экран">
+		<g id="Меню">
+			<path id="Rounded Rectangle 1 copy 2" class="shp0" d="M3 2L47 2C47.55 2 48 2.67 48 3.5C48 4.33 47.55 5 47 5L3 5C2.45 5 2 4.33 2 3.5C2 2.67 2.45 2 3 2ZM3 11L47 11C47.55 11 48 11.67 48 12.5C48 13.33 47.55 14 47 14L3 14C2.45 14 2 13.33 2 12.5C2 11.67 2.45 11 3 11ZM3 20L47 20C47.55 20 48 20.67 48 21.5C48 22.33 47.55 23 47 23L3 23C2.45 23 2 22.33 2 21.5C2 20.67 2.45 20 3 20Z" />
+		</g>
+	</g>
+</svg>

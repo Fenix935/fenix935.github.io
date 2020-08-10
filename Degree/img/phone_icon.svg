@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 42" width="28" height="42">
+	<defs>
+		<image width="28" height="42" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAqCAMAAACX8MsWAAAAAXNSR0IB2cksfwAAAXFQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////6XwCOwAAAHt0Uk5TAQIABAMvubGvs7KwHSb/NDM9PDk6ODVCDqtjfJSVbYaBcId+j0+78Ojq5unyZI3Z2G97Yr+8c3hgxnHDwovBenLEjGHAvnnFZsl35N3f4cvN497g7s9rGxQSGlZNFxMVGX+SdICYhX2prJ60nZMIEAsMBg39Bfri5+VZsX7lWAAAAbdJREFUeJyNlIk7AkEUwGdGlGuRHCVpEYUi5Uqi5K5lnRFy30eE5K83szMbNWs/7/v2m9n5zXvzjpkHAAAQlUkFWwMGDYggg1pMFYC/yiqjyVhtVAQPppraKmMdg/VCQ2OTudlsabGYzRYLGVvbhHYCIbLaNCx22KlmpwOVHQsA6nJSTbuoodndQzV7XX39bo/HPTDopuIZHLJ6O6imzzvMKY74RxkMBDk4Nj6BHSFwcgpnrBQGQ6qmdxpRf2HR6zA1i9AMgWUSCc3qwLn/wSgPRQZj82E9qGF2XA8WQ7HxZsOOYpy8Q3FRhQEeLqjQpwHj4qJ6ZoSH/kVSlT8grgqkoSxpQJ0MhfXgT8ls0d91LoMB9Sb8SNSvwmU+zpVVBn2uNU8imZCk9YVIfEPelLY2t3ds7N7ad9Feaj+VQgfpw/RRReo4kzlBzlMKz86ZLeHiMiaw+dU1hTdptnBrvbt/YPOJR6Q8KNc2enrOvrS/KqvZXC6XfUJvrQS+A+T/kKR8Xh74lJLJgizLhUL+44tsBAb4zgVCBCpmIW4sPIFIeUgAdxvlB6eQvRjSf0ibASV2IEsyoPAbXMlNNhgpNzUAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="1 экран">
+		<g id="Телефон">
+			<use id="Layer 3" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

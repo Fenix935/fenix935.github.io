@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 11" width="15" height="11">
+	<defs>
+		<image width="86" height="64" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAABACAYAAACA2YBxAAACxklEQVR4Xu3cbVKEMAwGYNZbeCbP65m8hTqu051S2rz5LLs0/vGHENKnIRRGuG3btr1/fv/8/c4fP4Fbwvph1pHusInrh/v18XY3fcAmsB23oHZhs3rlwDVo2ftQsVm5Mtge6rBi69C5YhhDj1BZsNkajrAUKGwFbbis3H8RDuq9YgsYd4eVgTlGxecBK5mN1XA5oG3L3MEmrq6f9q5DB9gSmjNLV69cjsHo4j6EXb16OahUYZGwK+JyQDlLUAi7Eq4X6m65xbmR8zww53gzt+GMTXJNYVVsPUBOApxTZSYadayo8Yhhr9QaolDFraCd+cjEois6OndVxb5ya4gGfTyEkTTkURXNStZaxTPzNFestHo9JlIDPBPV3GN7A5w9AIR8Vj6uFSt5zjBjSXYWakjFPktrOBM1HPasNS8HNbrXh7SCs9a7HNAZLWhKxc7qu8+E+pSwZSIkpyoXdVa1ToOVDLxuIwhXG3cGcHiPtQyeArDGjcYNhfUYfA/AK24kbhgsGnx9mqNt0d1V+3dpbNRypMcP67EIqjcQtA93cNrY3rjuFYuA0ADQ/hQwFZsTF+XGnVz3ikXJcxNHcahTnxo8Jy43R4TsVrEoaWnCKJ5mvcu9xZbm2kN2gUUI2kTPiuuxWjDDRg2eekqmnSgqZq/qLMcxwc5AbZ81WAbb4qH8LZWrhkVJeQKgC4Xl72gcWlwVLErmVVDbs0G7lHO5eF0NNQpXVLFXRY3AZcNeHdUblwW7CqonLoRdDdUL1/Sv8q929Zcuy1BRUUsx9csdV0e1Vm4XFs3UKqgWXPF7XquhanFFbyauiqrBZb9LuzoqF7c4DT8EUV9BE3W/nkDXoL+tIWyi9hdpCJeETVR65Uvh5jdhpHcNzfYj3C5sVqpMu4eb392SGQ63bnF3sFmpNuUaNz/BZ7M87F1w86ORzrAlXMIGwf4CkDNNOqzwb2MAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Остались вопросы?">
+		<g id="контакты">
+			<use id="Layer 49" href="#img1" transform="matrix(0.174,0,0,0.172,0,0)"/>
+		</g>
+	</g>
+</svg>

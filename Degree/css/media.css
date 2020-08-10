@@ -1,0 +1,493 @@
+@media(min-width: 1200px){
+    .line{
+        width: 150px;
+    }
+    .help,
+    .hide-left,
+    .hide-right{
+        width: 470px;
+    }
+    .hide-right::before{
+        left: 87%;
+    }
+    .hide-left::before{
+        left: 12%;
+    }
+    .form__item{
+        width: 235px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .form__iteam{
+        width: 216px;
+        margin-right: 15px;
+    }
+    .servis__inner {
+        flex-wrap: wrap-reverse;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    .servis__btn{
+        margin: 20px auto 0; 
+    }
+    .servis__content,
+    .servis__foto {
+        width: 100%;
+        margin-right: 0;
+    }
+    .servis__foto{
+        margin-bottom: 20px;
+    }
+    .count__box p{
+        font-size: 13px;
+    }
+    .line{
+        width: 85px;
+    }
+    .count__btn{
+        font-size: 13px;
+    }
+    .help,
+    .hide-left,
+    .hide-right{
+        width: 350px;
+        font-size: 14px;
+        bottom: -118%;
+    }
+    .hide-right{
+        bottom: -85%;
+    }
+    .hide-right::before{
+        left: 81%;
+    }
+    .hide-left::before{
+        left: 20%;
+    }
+    .hide-left{
+        bottom: -79%;
+    }
+    .portfolio__box{
+        text-align: center;
+    }
+    .portfolio__inner{
+        width: 100%;
+    }
+    .portfolio__iteam{
+        width: calc(50% - 20px);
+    }
+    .portfolio__iteam:nth-child(3n+3){
+        width: calc(50% - 20px);
+        margin-right: 20px;
+    }
+    .better__box{
+        width: calc(33.33333% - 20px);
+    }
+    .progress__inner {
+        flex-wrap: wrap;
+    }
+    .wrap2{
+        flex-wrap: wrap-reverse;
+    }
+    .progress__foto {
+        width: 100%;
+        height: 300px;
+    }
+    .progress__content{
+        margin: 40px 0;
+        width: 100%;
+    }
+    .bottom_none {
+        margin-bottom: 0;
+    }
+
+    .slider__iteam {
+        width: 150px;
+    }
+    .team__iteam{
+        width: calc(50% - 30px);
+    }
+    .team__iteam:nth-child(3n+3){
+        width: calc(50% - 30px);
+        margin-right: 30px;
+    }
+    .form__item{
+        width: 100%;
+        margin-right: 0;
+    }
+    .contact__work{
+        text-align: center;
+        font-size: 16px;
+    }
+    .modal__form{
+        width: 100%;
+    }
+    .progress{
+        padding-bottom: 20px;
+    }
+}
+
+
+@media(max-width: 768px){
+    .scroll__iteam{
+        transform: translateX(calc(var(--x) * -22));
+    }
+    .company__slider{
+        width: 1100%;
+        transform :translateX(calc(var(--x) / 1.1));
+    }
+
+
+    .question__inner {
+        flex-wrap: wrap;
+    }
+
+    .question__contact {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .contact__iteam {
+        justify-content: center;
+    }
+
+    .question__form {
+        margin-right: 0;
+        width: 80%;
+    }
+
+    footer a,
+    .foot__social p {
+        font-size: 13px;
+    }
+
+    .form__iteam {
+        width: 80%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .form form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .intro__title {
+        font-size: 35px;
+    }
+    .form__iteam{
+        width: 80%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .form form{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .modal{
+        background-color: transparent;
+    }
+    .modal__box{
+        width: 100%;
+        height: auto;
+    }
+    .modal__btn{
+        width: 80%;
+    }
+    .close{
+        top: 35px;
+        right: 35px;
+    }
+    .count__inner{
+        flex-wrap: wrap;
+    }
+    .count__iteam{
+        width: 100%;
+    }
+    .count__result{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 70px;
+    }
+    .line{
+        width: 140px;
+    }
+    .count__box p{
+        font-size: 15px;
+    }
+    .hide-right::before {
+        left: 85%;
+    }
+    .hide-right {
+        bottom: -77%;
+    }
+    .help{
+        bottom: -99%;
+    }
+    .help,
+    .hide-left,
+    .hide-right{
+        width: 90%;
+    }
+    .hide-left::before {
+        left: 14%;
+    }
+    .portfolio{
+        display: none;
+    }
+    .better__box{
+        width: calc(50% - 20px);
+    }
+    .team__iteam{
+        width: 100%;
+    }
+    .quote__title{
+        font-size: 30px;
+    }
+    .blog__inner{
+        flex-wrap: wrap;
+    }
+    .blog__iteam{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog__iteam:nth-child(2n+2){
+        width: 100%;
+    }
+    .foot__inner{
+        flex-wrap: wrap;
+    }
+    .foot__links{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .foot__social {
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+    .title{
+        text-align: center;
+    }
+}
+@media(max-width: 578px) {
+    .line {
+        width: 148px;
+    }
+    .modal__box {
+        width: 101%;
+        height: 100%;
+    }
+    .company__slider{
+        width: 1200%;
+        transform :translateX(calc(var(--x) * 1.19));
+    }
+}
+@media(max-width: 500px) {
+    .line {
+        width: 125px;
+    }
+}
+
+@media(max-width: 400px){
+    .company__slider{
+        width: 1450%;
+        transform :translateX(calc(var(--x) * 1.81));
+    }
+    .title:after{
+        width: 100%;
+    }
+    .line{
+        width: 86px;
+    }
+    .count__box p {
+        font-size: 13px;
+    }
+    .help {
+        bottom: -116%; 
+    }
+    .hide-left {
+        bottom: -95%;
+    }
+    .count__result{
+        margin-top: 100px;
+    }
+    .title{
+        font-size: 28px;
+        text-align: center;
+    }
+    .slider__iteam {
+        width: 140px;
+    }
+    .team__iteam{
+        margin-right: 0;
+    }
+    .quotes,
+    .quotes2{
+        display: none;
+    }
+    .question__form{
+        width: 100%;
+    }
+    .foot__group:last-child{
+        margin-right: 0;
+    }
+    .foot__group{
+        margin-right: 10px;
+    }
+    .team__title,
+    .team__position {
+        text-align: center;
+    }
+    .progress__foto{
+        height: 250px;
+    }
+    .modal__box{
+        width: 101%;
+        height: 100%;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+    .intro__title {
+        font-size: 23px;
+    }
+    .form__iteam {
+        width: 100%;
+    }
+
+    .intro__subtitle {
+        font-size: 16px;
+    }
+
+    .intro__title {
+        font-size: 20px;
+    }
+
+    .intro__subtitle {
+        margin-bottom: 0;
+    }
+
+    .servis__foto {
+        height: 280px;
+    }
+
+    .servis__text {
+        font-size: 16px;
+    }
+
+    .line {
+        width: 87px;
+    }
+
+    .center-big p {
+        margin-left: -40px;
+    }
+
+    .hide-right {
+        bottom: -75%;
+    }
+
+    .help,
+    .hide-left,
+    .hide-right {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .hide-right::before {
+        left: 82%;
+    }
+
+    .help {
+        bottom: -110%;
+    }
+
+    .hide-left::before {
+        left: 20%;
+    }
+
+    .close {
+        right: 20px;
+    }
+
+    .modal__btn {
+        width: 100%;
+    }
+
+    .count__btn {
+        text-align: center;
+    }
+
+    .better__box {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .question__subtext {
+        font-size: 18px;
+    }
+
+    .foot__links {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foot__group {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .foot__group:last-child {
+        margin-bottom: 0;
+    }
+
+    .foot__group a {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer a,
+    .foot__social p {
+        font-size: 16px;
+    }
+
+    .quote__title {
+        font-size: 24px;
+    }
+
+    .progress__foto {
+        height: 230px;
+    }
+}
+@media(max-width: 375px){
+    .line {
+        width:  78px;
+    }
+    .company__slider{
+        width: 1450%;
+        transform :translateX(calc(var(--x) * 1.95));
+    }
+}
+@media(max-width: 320px) {
+    .line {
+        width: 67px;
+    }
+    .company__slider{
+        width: 1800%;
+        transform :translateX(calc(var(--x) * 2.4));
+    }
+}
